@@ -25,7 +25,7 @@ CREATE TABLE "campaign" (
 
 CREATE TABLE "category" (
     "category_id" int   NOT NULL,
-    "category" varchchar(255)   NOT NULL,
+    "category" varchar(255)   NOT NULL,
     CONSTRAINT "pk_category" PRIMARY KEY (
         "category_id"
      )
